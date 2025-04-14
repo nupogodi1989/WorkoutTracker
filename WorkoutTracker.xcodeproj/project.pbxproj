@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		01E7EC242DACB4B6005FE057 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7EC232DACB4B6005FE057 /* ContentView.swift */; };
+		01E7EC4E2DACB538005FE057 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7EC4D2DACB534005FE057 /* WorkoutListView.swift */; };
+		01E7EC502DACB545005FE057 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7EC4F2DACB542005FE057 /* AddWorkoutView.swift */; };
+		01E7EC512DACB641005FE057 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7EC4C2DACB523005FE057 /* WorkoutViewModel.swift */; };
+		01E7EC522DACB668005FE057 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7EC4B2DACB4F3005FE057 /* Workout.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		01E7EC2C2DACB4B7005FE057 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,8 +33,13 @@
 
 /* Begin PBXFileReference section */
 		01E7EC1E2DACB4B6005FE057 /* WorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E7EC232DACB4B6005FE057 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01E7EC2B2DACB4B7005FE057 /* WorkoutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E7EC352DACB4B7005FE057 /* WorkoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E7EC4B2DACB4F3005FE057 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		01E7EC4C2DACB523005FE057 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		01E7EC4D2DACB534005FE057 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		01E7EC4F2DACB542005FE057 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,9 @@
 		01E7EC152DACB4B6005FE057 = {
 			isa = PBXGroup;
 			children = (
+				01E7EC4A2DACB4D5005FE057 /* Views */,
+				01E7EC492DACB4CD005FE057 /* ViewModels */,
+				01E7EC482DACB4C5005FE057 /* Models */,
 				01E7EC202DACB4B6005FE057 /* WorkoutTracker */,
 				01E7EC2E2DACB4B7005FE057 /* WorkoutTrackerTests */,
 				01E7EC382DACB4B7005FE057 /* WorkoutTrackerUITests */,
@@ -90,6 +106,32 @@
 				01E7EC352DACB4B7005FE057 /* WorkoutTrackerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		01E7EC482DACB4C5005FE057 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01E7EC4B2DACB4F3005FE057 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01E7EC492DACB4CD005FE057 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				01E7EC4C2DACB523005FE057 /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		01E7EC4A2DACB4D5005FE057 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E7EC4F2DACB542005FE057 /* AddWorkoutView.swift */,
+				01E7EC4D2DACB534005FE057 /* WorkoutListView.swift */,
+				01E7EC232DACB4B6005FE057 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E7EC242DACB4B6005FE057 /* ContentView.swift in Sources */,
+				01E7EC502DACB545005FE057 /* AddWorkoutView.swift in Sources */,
+				01E7EC4E2DACB538005FE057 /* WorkoutListView.swift in Sources */,
+				01E7EC512DACB641005FE057 /* WorkoutViewModel.swift in Sources */,
+				01E7EC522DACB668005FE057 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
